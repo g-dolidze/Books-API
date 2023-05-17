@@ -1,0 +1,26 @@
+.nav-wrapper {
+  width: 100%;
+  background-color: blue;
+  & header {
+    width: 80%;
+    margin: auto;
+    padding: 10px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    & nav {
+      & ul {
+        display: flex;
+        align-items: center;
+        & li {
+          list-style-type: none;
+          margin: 0 5px;
+          & a {
+            text-decoration: none;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
